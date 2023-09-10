@@ -9,7 +9,8 @@ require("dotenv").config();
 
 app.use(cors(
   {
-    origin: '*'
+    origin: 'https://chatify-chat-jdj95mmis-thefarhanahmad.vercel.app/',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   }
 ));
 app.use(express.json());
