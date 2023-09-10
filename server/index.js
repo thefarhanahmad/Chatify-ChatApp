@@ -50,3 +50,7 @@ io.on("connection", (socket) => {
     }
   });
 });
+
+app.post("/",(req,res)=>{
+  res.send("Server is running")
+})
